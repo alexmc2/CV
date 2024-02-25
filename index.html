@@ -1,0 +1,802 @@
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <style type="text/css">
+      @import url(https://themes.googleusercontent.com/fonts/css?kit=dpiI8CyVsrzWsJLBFKehGpLhv3qFjX7dUn1mYxfCXhI);
+      ol {
+        margin: 0;
+        padding: 0;
+      }
+      table td,
+      table th {
+        padding: 0;
+      }
+      body {
+        margin: 0 auto;
+      }
+      .main-container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 50px; /* Adjust if needed to ensure content does not touch the edges */
+        box-sizing: border-box;
+        background-color: #fdfdfd;
+        border-radius: 10px;
+      }
+      @media (max-width: 768px) {
+        .main-container {
+          padding: 0px; /* Reduced padding for mobile */
+        }
+      }
+      .c5 {
+        margin-left: 0.5pt;
+        padding-top: 0pt;
+        text-indent: -0.5pt;
+        padding-bottom: 0pt;
+        line-height: 2;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      .c26 {
+        -webkit-text-decoration-skip: none;
+        color: #1155cc;
+        font-weight: 400;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        font-size: 12pt;
+        font-family: 'Roboto';
+      }
+      .c16 {
+        margin-left: 0.5pt;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        line-height: 2;
+        orphans: 2;
+        widows: 2;
+        text-align: center;
+      }
+      .c18 {
+        -webkit-text-decoration-skip: none;
+        color: #2f5496;
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        font-size: 12pt;
+        font-family: 'Roboto';
+      }
+      .c0 {
+        color: #262626;
+        font-weight: 400;
+        text-decoration: none;
+        vertical-align: baseline;
+        font-size: 12pt;
+        font-family: 'Roboto';
+        font-style: normal;
+      }
+      .c10 {
+        margin-left: 0.8pt;
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        line-height: 2;
+        orphans: 2;
+        widows: 2;
+        text-align: center;
+      }
+      .c34 {
+        margin-left: 1pt;
+        padding-top: 13pt;
+        padding-bottom: 0pt;
+        line-height: 2;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      .c2 {
+        color: #2f5496;
+        font-weight: 700;
+        text-decoration: none;
+        vertical-align: baseline;
+        font-size: 28pt;
+        font-family: 'Roboto';
+        font-style: normal;
+      }
+      .c3 {
+        -webkit-text-decoration-skip: none;
+        color: #2f5496;
+        font-weight: 400;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        font-size: 12pt;
+        font-family: 'Roboto';
+      }
+      .c27 {
+        -webkit-text-decoration-skip: none;
+        color: #2f5496;
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        font-size: 14pt;
+        font-family: 'Roboto';
+      }
+      .c21 {
+        -webkit-text-decoration-skip: none;
+        color: #067aee;
+        font-weight: 400;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        font-size: 12pt;
+        font-family: 'Roboto';
+      }
+      .c11 {
+        padding-top: 0pt;
+        padding-bottom: 0pt;
+        line-height: 2;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      .c7 {
+        color: #595959;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 13pt;
+        font-family: 'Roboto';
+      }
+      .c14 {
+        color: #2f5496;
+        font-weight: 700;
+        font-size: 16pt;
+        font-family: 'Roboto';
+      }
+      .c30 {
+        color: #2f5496;
+        font-weight: 400;
+        font-size: 16pt;
+        font-family: 'Roboto';
+      }
+      .c31 {
+        color: #000000;
+        font-weight: 400;
+        font-size: 11pt;
+        font-family: 'Roboto';
+      }
+      .c13 {
+        color: #3b3838;
+        font-weight: 400;
+        font-size: 11pt;
+        font-family: 'Roboto';
+      }
+      .c25 {
+        color: #3b3838;
+        font-weight: 400;
+        font-size: 10.5pt;
+        font-family: 'Roboto';
+      }
+      .c17 {
+        font-size: 12pt;
+        font-family: 'Roboto';
+        color: #3b3838;
+        font-weight: 400;
+      }
+      .c20 {
+        color: #595959;
+        font-weight: 400;
+        font-size: 11pt;
+        font-family: 'Roboto';
+      }
+      .c33 {
+        color: #404040;
+        font-weight: 400;
+        font-size: 16pt;
+        font-family: 'Roboto';
+      }
+      .c32 {
+        color: #2f5496;
+        font-weight: 700;
+        font-size: 26pt;
+        font-family: 'Roboto';
+      }
+      .c22 {
+        color: #2f5496;
+        font-weight: 400;
+        font-size: 11pt;
+        font-family: 'Roboto';
+      }
+      .c19 {
+        color: #2f5496;
+        font-weight: 400;
+        font-size: 12pt;
+        font-family: 'Roboto';
+      }
+      .c28 {
+        color: #595959;
+        font-weight: 400;
+        font-size: 12pt;
+        font-family: 'Roboto';
+      }
+      .c4 {
+        font-size: 12pt;
+        font-family: 'Roboto';
+        color: #262626;
+        font-weight: 700;
+      }
+      .c1 {
+        font-size: 12pt;
+        font-family: 'Roboto';
+        color: #262626;
+        font-weight: 400;
+      }
+      .c29 {
+        color: #262626;
+        font-weight: 400;
+        font-size: 11pt;
+        font-family: 'Roboto';
+      }
+      .c23 {
+        background-color: #ffffff;
+        max-width: 564.7pt;
+        padding: 72pt 72pt 72pt 72pt;
+      }
+      .c6 {
+        vertical-align: baseline;
+        font-style: normal;
+      }
+      .c9 {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      .c24 {
+        margin-left: -0.2pt;
+      }
+      .c12 {
+        height: 11pt;
+      }
+      .c15 {
+        text-indent: -0.5pt;
+      }
+      .c8 {
+        text-decoration: none;
+      }
+      .title {
+        padding-top: 0pt;
+        color: #000000;
+        font-size: 26pt;
+        padding-bottom: 3pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      .subtitle {
+        padding-top: 0pt;
+        color: #666666;
+        font-size: 15pt;
+        padding-bottom: 16pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      li {
+        color: #000000;
+        font-size: 11pt;
+        font-family: 'Roboto';
+      }
+      p {
+        margin: 0;
+        color: #000000;
+        font-size: 11pt;
+        font-family: 'Roboto';
+      }
+      h1 {
+        padding-top: 20pt;
+        color: #000000;
+        font-size: 20pt;
+        padding-bottom: 6pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      h2 {
+        padding-top: 18pt;
+        color: #000000;
+        font-size: 16pt;
+        padding-bottom: 6pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      h3 {
+        padding-top: 16pt;
+        color: #434343;
+        font-size: 14pt;
+        padding-bottom: 4pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      h4 {
+        padding-top: 14pt;
+        color: #666666;
+        font-size: 12pt;
+        padding-bottom: 4pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      h5 {
+        padding-top: 12pt;
+        color: #666666;
+        font-size: 11pt;
+        padding-bottom: 4pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+      h6 {
+        padding-top: 12pt;
+        color: #666666;
+        font-size: 11pt;
+        padding-bottom: 4pt;
+        font-family: 'Roboto';
+        line-height: 1.15;
+        page-break-after: avoid;
+        font-style: italic;
+        orphans: 2;
+        widows: 2;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body class="c23 doc-content">
+    <div class="main-container">
+      <div class="cv-container">
+        <p class="c10"><span class="c2">Alex McGarry </span></p>
+        <p class="c16 c15">
+          <span class="c6 c8 c30">Junior Software Developer</span>
+        </p>
+        <p class="c16 c15"><span class="c17 c6 c8">Brighton</span></p>
+        <p class="c15 c16">
+          <span class="c3"
+            ><a class="c9" href="mailto:alexandramcgarryx@gmail.com"
+              >alexandramcgarryx@gmail.com</a
+            ></span
+          ><span class="c19">&nbsp;</span><span class="c1">|</span
+          ><span class="c17">&nbsp;07793 565433</span>
+        </p>
+        <p class="c16 c15">
+          <span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2&amp;sa=D&amp;source=editors&amp;ust=1708826683988728&amp;usg=AOvVaw2FbqkOtr3Dlj4G9DMSp3nz"
+              >GitHub</a
+            ></span
+          ><span class="c19">&nbsp;</span><span class="c1">| </span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://www.linkedin.com/in/alex-mcgarry&amp;sa=D&amp;source=editors&amp;ust=1708826683988888&amp;usg=AOvVaw2X9sIChaMkmyutC7tqDzqV"
+              >LinkedIn</a
+            ></span
+          ><span class="c21"><br /></span>
+        </p>
+        <p class="c5 c12"><span class="c29 c6 c8"></span></p>
+        <p class="c5 c12"><span class="c6 c8 c29"></span></p>
+        <p class="c11 c24 c15">
+          <span class="c14 c6 c8">Personal Statement:</span>
+        </p>
+        <p class="c11 c12 c15 c24"><span class="c6 c27"></span></p>
+        <p class="c11">
+          <span class="c0"
+            >I&rsquo;m a graduate of the Northcoders software development course
+            (Manchester, UK) &nbsp;where I developed a strong foundation in
+            JavaScript, front-end and back-end development, and an appreciation
+            of the importance of testing. I&rsquo;ve discovered my passion for
+            coding and my recent projects have given me the opportunity to put
+            these skills into practice, bridging the gap between theoretical
+            knowledge and practical application. I&#39;m excited to continue
+            learning, growing and contributing in the tech industry.</span
+          >
+        </p>
+        <p class="c11 c12"><span class="c13 c6 c8"></span></p>
+        <p class="c5">
+          <span class="c14 c6 c8">Technical skills: &nbsp;</span>
+        </p>
+        <p class="c5 c12"><span class="c6 c18"></span></p>
+        <p class="c11">
+          <span class="c4">Language(s):</span
+          ><span class="c0"
+            >&nbsp;JavaScript, TypeScript, currently learning Python</span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c4">Front-End:</span
+          ><span class="c0"
+            >&nbsp;HTML/CSS, Understanding of the DOM, Responsive Design, React,
+            React Native, Redux, Expo Go, Bootstrap, Tailwind CSS, Next.js</span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c4">Back-End:</span
+          ><span class="c0"
+            >&nbsp;Node.js, Express.js, RESTful API Design, Insomnia, Postman,
+            SQL, PSQL, Firebase, MongoDB, Supabase, Prisma, Flask</span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c4">Testing:</span
+          ><span class="c0"
+            >&nbsp;Test Driven Development (TDD), Jest, Supertest</span
+          >
+        </p>
+        <p class="c5 c12"><span class="c6 c8 c13"></span></p>
+        <p class="c11"><span class="c14 c6 c8">Projects: &nbsp;</span></p>
+        <p class="c11 c12"><span class="c27 c6"></span></p>
+        <p class="c11 c15">
+          <span class="c4 c6 c8">Mood Journal Chat Application</span>
+        </p>
+        <p class="c11 c12 c15"><span class="c4 c6 c8"></span></p>
+        <p class="c11 c15">
+          <span class="c1">GitHub:</span><span class="c17">&nbsp;</span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/mood-journal&amp;sa=D&amp;source=editors&amp;ust=1708826683990344&amp;usg=AOvVaw1ufxrtJclZquaqOz-W0Agp"
+              >https://github.com/alexmc2/mood-journal</a
+            ></span
+          >
+        </p>
+        <p class="c11">
+          <span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://www.mood-chat.com&amp;sa=D&amp;source=editors&amp;ust=1708826683990473&amp;usg=AOvVaw0HPn-NvQaGrP7pq76AJK4B"
+              >https://www.mood-chat.com</a
+            ></span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c0"
+            >My latest project is &nbsp;an AI enhanced journaling application
+            that assists users in tracking and reflecting on their emotional
+            wellbeing. The app features a LangChain-powered chatbot that
+            utilises vector embeddings to provide a contextually-aware
+            personalised chat experience, offering insights and perspectives
+            tailored to the user&#39;s journal content and previous chat
+            history. Developing this app has been a brilliant learning
+            experience and I&rsquo;m excited about implementing future upgrades.
+          </span>
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c4 c6 c8"
+            >Brighton Rock Housing Co-operative Website
+          </span>
+        </p>
+        <p class="c11 c12"><span class="c4 c6 c8"></span></p>
+        <p class="c11">
+          <span class="c1">GitHub:</span><span class="c17">&nbsp;</span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/brighton-rock&amp;sa=D&amp;source=editors&amp;ust=1708826683991047&amp;usg=AOvVaw23L3c-3xjIpLxrU97lz7y5"
+              >https://github.com/alexmc2/brighton-rock</a
+            ></span
+          >
+        </p>
+        <p class="c11">
+          <span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://www.brighton-rock.org/&amp;sa=D&amp;source=editors&amp;ust=1708826683991174&amp;usg=AOvVaw2z171Lc-c6yDbWtijmpaC8"
+              >https://www.brighton-rock.org</a
+            ></span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c0"
+            >Website for Brighton Rock Housing Co-operative. This fully
+            responsive website was built using Bootstrap to provide an online
+            presence for the co-operative and to facilitate communication with
+            potential members.</span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c4 c6 c8">Colour App: Colour Palette Generator </span>
+        </p>
+        <p class="c11 c12"><span class="c4 c6 c8"></span></p>
+        <p class="c11">
+          <span class="c1">GitHub:</span
+          ><span class="c26"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/colour_palette_generator&amp;sa=D&amp;source=editors&amp;ust=1708826683991654&amp;usg=AOvVaw3Ebk_SCZXKO2E3eg5K6X9B"
+              >&nbsp;</a
+            ></span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/colour_palette_generator&amp;sa=D&amp;source=editors&amp;ust=1708826683991745&amp;usg=AOvVaw3przAaR8ucsGLnL67ypanX"
+              >https://github.com/alexmc2/colour_palette_generator</a
+            ></span
+          >
+        </p>
+        <p class="c11">
+          <span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://colorsapp.link/&amp;sa=D&amp;source=editors&amp;ust=1708826683991856&amp;usg=AOvVaw3jk3ElU1Xtjquyi9CICxv7"
+              >https://colorsapp.link/</a
+            ></span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c0"
+            >A simple colour palette generator built with Python. The backend,
+            built with Flask, communicates with the OpenAI API to produce colour
+            themes or palettes based on user prompts. The app is hosted using
+            AWS Elastic Beanstalk and AWS CodePipeline. While straightforward,
+            this project has been a valuable learning experience in terms of
+            working with Python for the first time and familiarising myself with
+            AWS deployment.</span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11 c15">
+          <span class="c4 c6 c8"
+            >Content-AI: AI-powered content and image generator</span
+          >
+        </p>
+        <p class="c11 c12 c15"><span class="c4 c6 c8"></span></p>
+        <p class="c11 c15">
+          <span class="c1">GitHub:</span><span class="c17">&nbsp;</span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/content-ai&amp;sa=D&amp;source=editors&amp;ust=1708826683992271&amp;usg=AOvVaw1w5c6IRyEv_Q1Y_djOMjK7"
+              >https://github.com/alexmc2/content-ai</a
+            ></span
+          >
+        </p>
+        <p class="c11 c15">
+          <span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://content-ai-zeta.vercel.app/&amp;sa=D&amp;source=editors&amp;ust=1708826683992407&amp;usg=AOvVaw3rfzTcRqtQkMVEaf_u7Znz"
+              >https://content-ai-zeta.vercel.app/</a
+            ></span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11">
+          <span class="c0"
+            >I developed a web application that utilises Open AI&rsquo;s
+            GPT-3.5-turbo API and Stability AI&rsquo;s SDXL 1.0 model to
+            generate AI content from given user prompts. The app was built with
+            Next.js and uses MongoDB for the back-end database and Auth0 for
+            authentication.</span
+          >
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c11 c15">
+          <span class="c4 c6 c8">Wow Store: E-commerce Website</span>
+        </p>
+        <p class="c11 c12 c15"><span class="c4 c6 c8"></span></p>
+        <p class="c11">
+          <span class="c1">GitHub:</span><span class="c19">&nbsp;</span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/e-commerce-site&amp;sa=D&amp;source=editors&amp;ust=1708826683992825&amp;usg=AOvVaw3-PFeH-mClpumzDE7NxGTQ"
+              >https://github.com/alexmc2/e-commerce-site</a
+            ></span
+          ><span class="c19">&nbsp;</span>
+        </p>
+        <p class="c11">
+          <span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://e-commerce-site-y0uv.onrender.com/&amp;sa=D&amp;source=editors&amp;ust=1708826683992973&amp;usg=AOvVaw1DpJTSfBGVEXjL8CFQMfLX"
+              >https://e-commerce-site-y0uv.onrender.com</a
+            ></span
+          ><span class="c19 c6 c8">&nbsp;</span>
+        </p>
+        <p class="c11 c12"><span class="c19 c6 c8"></span></p>
+        <p class="c11">
+          <span class="c0"
+            >An e-commerce practice project built with the MERN stack. The
+            back-end is powered by Express and MongoDB, and the front-end was
+            developed using React, Redux, and Bootstrap.
+          </span>
+        </p>
+        <p class="c11 c12"><span class="c0"></span></p>
+        <p class="c5">
+          <span class="c4 c6 c8">Northcoders Final Project: Park Me Bike</span>
+        </p>
+        <p class="c5 c12"><span class="c4 c6 c8"></span></p>
+        <p class="c5">
+          <span class="c1">GitHub: </span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/ParkMeBike&amp;sa=D&amp;source=editors&amp;ust=1708826683993349&amp;usg=AOvVaw2QaxOxKgmOc6haeMUNQ7Ya"
+              >https://github.com/alexmc2/ParkMeBike</a
+            ></span
+          >
+        </p>
+        <p class="c5">
+          <span class="c3 c6"
+            >https://northcoders.com/projects/june-2023/park-me-bike</span
+          >
+        </p>
+        <p class="c5 c12"><span class="c0"></span></p>
+        <p class="c5">
+          <span class="c1"
+            >As part of a team of five people, we developed a bike parking app
+            using React Native, Firebase/Firestore, and Expo Go. The app assists
+            users in locating available bike parking spaces using data from the </span
+          ><span class="c1">Cycle Streets</span
+          ><span class="c1">&nbsp;API.</span>
+        </p>
+        <p class="c11 c12"><span class="c17 c6 c8"></span></p>
+        <p class="c5">
+          <span class="c4 c6 c8"
+            >Northcoders Back-end and Front-end Project: House of Games</span
+          >
+        </p>
+        <p class="c5 c12"><span class="c4 c6 c8"></span></p>
+        <p class="c5">
+          <span class="c1">GitHub:</span><span class="c17">&nbsp;</span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/nc-backend-project&amp;sa=D&amp;source=editors&amp;ust=1708826683993883&amp;usg=AOvVaw3VBvxA70YpMVDERD_ASVLZ"
+              >https://github.com/alexmc2/nc-backend-project</a
+            ></span
+          ><span class="c19">&nbsp;</span
+          ><span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://github.com/alexmc2/nc-games&amp;sa=D&amp;source=editors&amp;ust=1708826683993985&amp;usg=AOvVaw3ndkuld0lOqFo6PuQv13Gt"
+              >https://github.com/alexmc2/nc-games</a
+            ></span
+          >
+        </p>
+        <p class="c5">
+          <span class="c3"
+            ><a
+              class="c9"
+              href="https://www.google.com/url?q=https://game-reviews-m0nu.onrender.com/api&amp;sa=D&amp;source=editors&amp;ust=1708826683994112&amp;usg=AOvVaw13zbdZkaqw5jTH20U4sLSW"
+              >https://game-reviews-m0nu.onrender.com/api</a
+            ></span
+          >
+        </p>
+        <p class="c5 c12"><span class="c0"></span></p>
+        <p class="c5">
+          <span class="c0"
+            >Developed a board game reviews API using Node.js, Express,
+            PostgreSQL, Jest, and Supertest. The API provides access to board
+            game reviews, review comments, and user data. The front-end was made
+            using React and Vite.
+          </span>
+        </p>
+        <p class="c5 c12"><span class="c6 c8 c25"></span></p>
+        <p class="c5"><span class="c14 c6 c8">Experience:</span></p>
+        <p class="c5 c12"><span class="c27 c6"></span></p>
+        <p class="c5">
+          <span class="c4 c6 c8"
+            >Trainee Software Developer, Northcoders (March 2023 &ndash; June
+            2023)</span
+          >
+        </p>
+        <p class="c5">
+          <span class="c0"
+            >Participated in an immersive programme focusing on full-stack web
+            development, with a strong emphasis on practical, project-based
+            learning. The curriculum covered the entirety of the development
+            stack, from front-end to back-end, with an emphasis on
+            JavaScript.</span
+          >
+        </p>
+        <p class="c5 c12"><span class="c0"></span></p>
+        <p class="c5">
+          <span class="c4 c6 c8"
+            >2004 &ndash; 2013 &ndash; Association of Chartered Certified
+            Accountants (ACCA) qualified Financial Accountant/Management
+            Accountant</span
+          >
+        </p>
+        <p class="c5">
+          <span class="c28"><br /></span
+          ><span class="c1"
+            >Responsible for preparing limited company accounts, reporting
+            directly to </span
+          ><span class="c1">partner</span><span class="c1">.</span
+          ><span class="c4 c6 c8">&nbsp;</span>
+        </p>
+        <p class="c5 c12"><span class="c6 c8 c28"></span></p>
+        <p class="c5"><span class="c14 c6 c8">Education:</span></p>
+        <p class="c5 c12"><span class="c18 c6"></span></p>
+        <p class="c5">
+          <span class="c0">2004 to 2008 &ndash; ACCA qualification</span>
+        </p>
+        <p class="c5">
+          <span class="c0"
+            >1998 to 2001 &ndash; University of Sheffield, Bachelor of Laws
+            (LLB: Hons)</span
+          >
+        </p>
+        <p class="c5">
+          <span class="c0"
+            >1995 &ndash; 1997 &ndash; Holy Cross College, Bury</span
+          >
+        </p>
+        <p class="c5" id="h.gjdgxs">
+          <span class="c0"
+            >A Levels: English Literature (A), Government and Politics (A),
+            Modern History (A), General Studies (B)</span
+          >
+        </p>
+        <p class="c5 c12"><span class="c6 c8 c33"></span></p>
+        <p class="c5">
+          <span class="c6 c8 c14">Hobbies &amp; Interests:</span>
+        </p>
+        <p class="c5 c12"><span class="c18 c6"></span></p>
+        <p class="c5">
+          <span class="c0"
+            >I&rsquo;ve been a regular and active member of my local CrossFit
+            box for over four years (CrossFit Connect, Hove). I enjoy running
+            and completed the Berlin Marathon in 2021. I also enjoy learning
+            French.</span
+          >
+        </p>
+        <p class="c5">
+          <span class="c28"><br /></span
+          ><span class="c4"
+            >Member and Resident of Brighton Rock Housing Co-operative,
+            Hove</span
+          >
+        </p>
+        <p class="c5">
+          <span class="c0"
+            >As the co-op&#39;s treasurer, I&rsquo;m responsible for managing
+            the co-op&#39;s budgets, bookkeeping and annual FCA accounts,
+            reporting to the monthly general meeting.
+          </span>
+        </p>
+        <p class="c11 c24 c12 c15"><span class="c13 c6 c8"></span></p>
+        <p class="c11 c24 c12 c15"><span class="c6 c8 c22"></span></p>
+        <p class="c5 c12"><span class="c6 c7"></span></p>
+        <p class="c11 c24 c12 c15"><span class="c6 c8 c20"></span></p>
+        <p class="c12 c34"><span class="c6 c8 c32"></span></p>
+        <p class="c11 c12"><span class="c6 c8 c31"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
