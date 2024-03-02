@@ -1,10 +1,10 @@
 import React from 'react';
-import { Analytics } from '@vercel/analytics/react';
+
 
 function App() {
   return (
     <div>
-      <Analytics />
+     <h1>CV Page</h1>
     </div>
   );
 }
